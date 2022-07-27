@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 
 import React from 'react';
-import { Food, Hero, Navbar, TopLevelCards } from './components';
+import { Categories, Food, Hero, Navbar, TopLevelCards } from './components';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Hero />
       <TopLevelCards />
       <Food />
+      <Categories />
     </div>
   );
 }
