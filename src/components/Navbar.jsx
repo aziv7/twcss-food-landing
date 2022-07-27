@@ -40,14 +40,14 @@ const Navbar = () => {
 
       <div
         className={`${
-          open == true
+          open === true
             ? 'bg-black/80 fixed w-full h-screen z-10 top-0 left-0'
             : 'opacity-0'
         }`}></div>
 
       <div
         className={`${
-          open == true
+          open === true
             ? 'fixed top-0 z-20 left-0 w-[300px] h-screen bg-white duration-300'
             : 'fixed top-0 z-20 left-[-300px] w-[300px] h-screen bg-white duration-300'
         }`}>

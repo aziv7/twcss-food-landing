@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 
 import React from 'react';
-import { Navbar } from './components';
+import { Hero, Navbar, TopLevelCards } from './components';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Hero />
+      <TopLevelCards />
     </div>
   );
 }
